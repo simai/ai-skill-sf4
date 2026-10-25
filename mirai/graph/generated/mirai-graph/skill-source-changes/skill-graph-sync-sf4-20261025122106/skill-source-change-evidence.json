@@ -1,0 +1,804 @@
+{
+  "schema_version": "1.0.0",
+  "operation_id": "graph.skill-evolution.changed-source.evidence",
+  "created_at": "2026-10-25T12:21:07.141658+00:00",
+  "skill": "sf4",
+  "repo": "repo://ai-skill-sf4",
+  "base": "5f2cca2daba570b62f49274255ea414b8d28a0b9",
+  "base_commit": "5f2cca2daba570b62f49274255ea414b8d28a0b9",
+  "comparison_mode": "baseline_to_worktree",
+  "detector_fingerprint": "9a1fff5955bd8734e2354b430b5688cd8c54466fe731e508dc6eec96e097d907",
+  "detector_report_ref": "graph/generated/mirai-graph/skill-source-changes/skill-graph-sync-sf4-20261025122106/detector-report.json",
+  "changed_files": [
+    {
+      "path": "skills/sf4/references/artifacts/migration-notes.md",
+      "source_path": "references/artifacts/migration-notes.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "fefe87585d6354c928f4857e7086855871db23f0c97423a9e7d0f432d5534eec",
+      "source_bytes": 687,
+      "baseline_path": "skills/sf4/references/artifacts/migration-notes.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "48a4ecf05204135d8cf1b478e428873ba0f29e4f23d03ac38cce22b50dd1e579",
+      "baseline_bytes": 514
+    },
+    {
+      "path": "skills/sf4/references/artifacts/qa-report.md",
+      "source_path": "references/artifacts/qa-report.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "228a1cdad76db229400b0a4a7168772e581073b774b8456238bf3f8715c9bc56",
+      "source_bytes": 907,
+      "baseline_path": "skills/sf4/references/artifacts/qa-report.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "fbc5abc5f85cc3c970f32c63a8c12929f683caa106479177baa8fcba9c5e014e",
+      "baseline_bytes": 734
+    },
+    {
+      "path": "skills/sf4/references/artifacts/regression-checklist.md",
+      "source_path": "references/artifacts/regression-checklist.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "3b78f9ab574c1385bd60ac54a933124ec90d08dc2cb731a496eb3c2d3505e88a",
+      "source_bytes": 962,
+      "baseline_path": "skills/sf4/references/artifacts/regression-checklist.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "6851017417d77bda99311b6872cce515379c561db57047e853aeda3c9ea5330a",
+      "baseline_bytes": 789
+    },
+    {
+      "path": "skills/sf4/references/artifacts/upgrade-notes.md",
+      "source_path": "references/artifacts/upgrade-notes.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "4716e85fabb0a9807bf5b31a00de9ba93f672e429420710496957e981838c259",
+      "source_bytes": 490,
+      "baseline_path": "skills/sf4/references/artifacts/upgrade-notes.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "96fc8e208f646cbd13a44fc4e164fe8b03e23b88ae304fa53b0ee6902f5a35fa",
+      "baseline_bytes": 317
+    },
+    {
+      "path": "skills/sf4/references/backend-critical-guides.md",
+      "source_path": "references/backend-critical-guides.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "1395c4cde8039ee784c7bda31b66fcfc0960b2728885fa38e69b49edfaa4b7fa",
+      "source_bytes": 2259,
+      "baseline_path": "skills/sf4/references/backend-critical-guides.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "d1c99b9f64bb9122673afc50f25227f1732a1a3641c8488d40a2d6e15a865c00",
+      "baseline_bytes": 2039
+    },
+    {
+      "path": "skills/sf4/references/bx-backend-source-map.md",
+      "source_path": "references/bx-backend-source-map.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "a2578e8e8a2aa6b6b29ce00665fd62200fb6cbe7e02e695f123196c2e0aecf51",
+      "source_bytes": 2611,
+      "baseline_path": "skills/sf4/references/bx-backend-source-map.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "b076f0f09bebe6ae604ec63bbadff5c787c8f0928b9a21b8033dd5810899d1f9",
+      "baseline_bytes": 2391
+    },
+    {
+      "path": "skills/sf4/references/component-template-resolution.md",
+      "source_path": "references/component-template-resolution.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "43e40a609f55e9b3e6f73ee7f8204719cdc0f921eef42fe2d0fc98c623903f50",
+      "source_bytes": 2933,
+      "baseline_path": "skills/sf4/references/component-template-resolution.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "1cac672cf1194fab89f1dfb702aab143dfd76fcbfce5006884a4511e7ffd6ad5",
+      "baseline_bytes": 2679
+    },
+    {
+      "path": "skills/sf4/references/components-catalog.md",
+      "source_path": "references/components-catalog.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "8972d48d767a39a5def48f4462d2b9ec9fd155ac821f5e08909eed63eabc5a8f",
+      "source_bytes": 9698,
+      "baseline_path": "skills/sf4/references/components-catalog.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "e4d2cbf3ecadf1e055f5f25a131a01289ead0d1b017b217fde6e42c2c468195b",
+      "baseline_bytes": 9444
+    },
+    {
+      "path": "skills/sf4/references/config-and-data.md",
+      "source_path": "references/config-and-data.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "fabe9e6f560c9c17c74f9ae6bdf7220151f4c7b164d5420cbec2fc7fcc4133b9",
+      "source_bytes": 2650,
+      "baseline_path": "skills/sf4/references/config-and-data.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "0f6406fbb8eae7a598a11297711b981ed60518304dffa0a4c5df0c761d832fcd",
+      "baseline_bytes": 2396
+    },
+    {
+      "path": "skills/sf4/references/grid-and-block-workflow.md",
+      "source_path": "references/grid-and-block-workflow.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "a3ac624892b149f3ebab66eb0e87bff467f479f63fc3d911d327faef1339094a",
+      "source_bytes": 6225,
+      "baseline_path": "skills/sf4/references/grid-and-block-workflow.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "bca356583a5af8b68554c9be2be81890ae274d85102136bcbdf8f2a5f6ba48c4",
+      "baseline_bytes": 5971
+    },
+    {
+      "path": "skills/sf4/references/hygiene-and-secrets.md",
+      "source_path": "references/hygiene-and-secrets.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "ea88beb86cb2f03c6fab5b31999b06baa04b80100b2592fc28e06b7d5107e799",
+      "source_bytes": 1827,
+      "baseline_path": "skills/sf4/references/hygiene-and-secrets.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "07f25b31d0c874f89b72a3a0a8973f27ae980643152308c30b293595016a628d",
+      "baseline_bytes": 1573
+    },
+    {
+      "path": "skills/sf4/references/iblock-hl-standard.md",
+      "source_path": "references/iblock-hl-standard.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "0bab3ca1c0a69551cee3f5b9bc088f7fe5c0a6c8809f4925a820ecbf9d355688",
+      "source_bytes": 5599,
+      "baseline_path": "skills/sf4/references/iblock-hl-standard.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "92b1103d7cff538c75e41fea5cf103796d57f97921c45225bd993d5a130c28a3",
+      "baseline_bytes": 5354
+    },
+    {
+      "path": "skills/sf4/references/linkage-remediation.md",
+      "source_path": "references/linkage-remediation.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "e29e3a67eb82a6305a720f8797352d4ac633b0992e21b302b12ce351b0329d58",
+      "source_bytes": 1518,
+      "baseline_path": "skills/sf4/references/linkage-remediation.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "e5a7faf09d65453c5fb4ab12cf32f6f4131583e621ce1b02b435b64a35288ee3",
+      "baseline_bytes": 1264
+    },
+    {
+      "path": "skills/sf4/references/page-map-and-modernization.md",
+      "source_path": "references/page-map-and-modernization.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "5cd48f7db0d008d29d186d8d7e40902477db9f67e2c77824bf037d2df83b89e2",
+      "source_bytes": 5093,
+      "baseline_path": "skills/sf4/references/page-map-and-modernization.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "580692a4bdc6159682eabf508a447be6b71b953cc1b278f8b09cf2e9a9539d73",
+      "baseline_bytes": 4839
+    },
+    {
+      "path": "skills/sf4/references/portal-runtime-source-of-truth.md",
+      "source_path": "references/portal-runtime-source-of-truth.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "ba297cbef8589895e8562b5bc9c6b2569f014cb4222432ff28d916553d0bf4ec",
+      "source_bytes": 3227,
+      "baseline_path": "skills/sf4/references/portal-runtime-source-of-truth.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "e2889a04bf451dbc586c7c12ebf3e44c8797dfb679b12d2b5dc0feddf3f88bd1",
+      "baseline_bytes": 3023
+    },
+    {
+      "path": "skills/sf4/references/production-patterns.md",
+      "source_path": "references/production-patterns.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "a37cb1bc1e49e76c718b9a1cfac7b21035f0f280cf7c8fb223828e2cd4084134",
+      "source_bytes": 2885,
+      "baseline_path": "skills/sf4/references/production-patterns.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "6e26c49093a154835254d9c266658e633f407f8a114e36cfda7202ad33292208",
+      "baseline_bytes": 2631
+    },
+    {
+      "path": "skills/sf4/references/project-layout.md",
+      "source_path": "references/project-layout.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "f594ff5910c02d126ec55e724ecfb7759ecc41637e048cd9b78d6efd71692262",
+      "source_bytes": 2645,
+      "baseline_path": "skills/sf4/references/project-layout.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "41515745b907109e1223f11ed21029614542dca1e8324e687d3cd134548133f1",
+      "baseline_bytes": 2391
+    },
+    {
+      "path": "skills/sf4/references/property-editor-playbook.md",
+      "source_path": "references/property-editor-playbook.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "28e1e7ea4ddf464fe456db141b735bf102a9841dfe3933c929d1797261bb78c6",
+      "source_bytes": 2283,
+      "baseline_path": "skills/sf4/references/property-editor-playbook.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "572119f463d5c1b60b4345d1f975c9036e3c6dd476d9daa2fcc87ef89a46d5ed",
+      "baseline_bytes": 2063
+    },
+    {
+      "path": "skills/sf4/references/qa-regression.md",
+      "source_path": "references/qa-regression.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "a7d60500b095513e323875f498900e02556d725dccdbdc8bc5f80113237786e5",
+      "source_bytes": 2856,
+      "baseline_path": "skills/sf4/references/qa-regression.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "c74399303a95f83b6c91132012463a0f6152fe5b829291175b69eed33760d49d",
+      "baseline_bytes": 2602
+    },
+    {
+      "path": "skills/sf4/references/scripts-catalog.md",
+      "source_path": "references/scripts-catalog.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "9e5a3953ba8a419bf032d6128b55e74043707a517f221dbe928814b560813c46",
+      "source_bytes": 3207,
+      "baseline_path": "skills/sf4/references/scripts-catalog.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "b0da969d607ee036d420e54e6e709aa483aab6abb57ea983202afbfa1c10e408",
+      "baseline_bytes": 2983
+    },
+    {
+      "path": "skills/sf4/references/sfgrid-editor-features.md",
+      "source_path": "references/sfgrid-editor-features.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "22f066856fb280788cd22408e59f7716f2dc5220119ec255e262e77e1afbf4de",
+      "source_bytes": 2839,
+      "baseline_path": "skills/sf4/references/sfgrid-editor-features.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "21c091258f540f25928cff1a05af844c84018c1789e62a33c3c5b39ac0c0e00b",
+      "baseline_bytes": 2076
+    },
+    {
+      "path": "skills/sf4/references/simai-data-settings-runtime.md",
+      "source_path": "references/simai-data-settings-runtime.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "a05dea63fce7a142a20a712db571d07fa573ae3fd48f226c83f41da710da9f27",
+      "source_bytes": 9806,
+      "baseline_path": "skills/sf4/references/simai-data-settings-runtime.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "40cd9d551ba83f824a8f68204efbbf2dc27c5cc4d65ddf3752cc9760fa3f80b7",
+      "baseline_bytes": 9552
+    },
+    {
+      "path": "skills/sf4/references/solution-customization-technology.md",
+      "source_path": "references/solution-customization-technology.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "241e7f32c1b5ef5ed1ca392c8d6010a59d35c57d94fdd8c3aa152084aafdc3a7",
+      "source_bytes": 48027,
+      "baseline_path": "skills/sf4/references/solution-customization-technology.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "1a62bd37a0af5b9840fdd4aafb37836a25b7458d9113b0c7c1550c6685979a42",
+      "baseline_bytes": 47773
+    },
+    {
+      "path": "skills/sf4/references/storage-api-playbook.md",
+      "source_path": "references/storage-api-playbook.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "ced8a46da64610b76a8662e57c2cb82f1c97664d91cd1d5192c07e47b5e9ce05",
+      "source_bytes": 3629,
+      "baseline_path": "skills/sf4/references/storage-api-playbook.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "f4d532531e5d78fb241f71f09ab716eec3b5ad0e2667d60fa856458802bb78a0",
+      "baseline_bytes": 2563
+    },
+    {
+      "path": "skills/sf4/references/system-layer-simai.md",
+      "source_path": "references/system-layer-simai.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "1562ae6e203091dc29b4583d5fe65a02a93362bc2e0171f37cd4dff95beb9b5e",
+      "source_bytes": 5468,
+      "baseline_path": "skills/sf4/references/system-layer-simai.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "59054187b788ab6ba85146b8f93496be97d13825ff2aa520f44f03197c941d7c",
+      "baseline_bytes": 5214
+    },
+    {
+      "path": "skills/sf4/references/task-playbooks.md",
+      "source_path": "references/task-playbooks.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "0b58c3e983097d9815cac12847ee71f3d8da1f841ab65cd8b01b7047f0050218",
+      "source_bytes": 15965,
+      "baseline_path": "skills/sf4/references/task-playbooks.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "f8e043bc4fa2af41117ff87acab0ce006aa9f811b201247919209ba26d833c2e",
+      "baseline_bytes": 15711
+    },
+    {
+      "path": "skills/sf4/references/troubleshooting.md",
+      "source_path": "references/troubleshooting.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "65562cdd6ce9507dade8ddadb29ab6cfe949374fe29fcc79483cd0da091cf13f",
+      "source_bytes": 4058,
+      "baseline_path": "skills/sf4/references/troubleshooting.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "54cc4a4a369e858121a28dc9bf44d1f890a1e65e8931f31ff6f01521bedab549",
+      "baseline_bytes": 3804
+    },
+    {
+      "path": "skills/sf4/references/ui-a11y-checklist.md",
+      "source_path": "references/ui-a11y-checklist.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "d7e51482f6ba3d4a2eb100dfe43f38f1f31f66ed6642978a458870d388afa1b6",
+      "source_bytes": 1584,
+      "baseline_path": "skills/sf4/references/ui-a11y-checklist.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "9730b6d81ffa010d36e839541699b86fa0e9679817d29ab1400e59ee1867973e",
+      "baseline_bytes": 1353
+    },
+    {
+      "path": "skills/sf4/references/ui-asset-policy.md",
+      "source_path": "references/ui-asset-policy.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "aa99b3fe67c1b2e526df2cee29ab52148a6b799d7c0f01853de764155f742989",
+      "source_bytes": 1485,
+      "baseline_path": "skills/sf4/references/ui-asset-policy.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "9ba6d822d964e04b1cbe78fdddfa44b3a3a27e06f212ce3b3e74fef8170dacb1",
+      "baseline_bytes": 1254
+    },
+    {
+      "path": "skills/sf4/references/ui-catalog.md",
+      "source_path": "references/ui-catalog.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "36922e979c0284329fa80e4e57976223cc34b4cfbab6d3e856d7b431c216adc7",
+      "source_bytes": 3819,
+      "baseline_path": "skills/sf4/references/ui-catalog.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "571b7a26ad3ca4edfec0c9bd21e478034b14e4dfa2d2494849f059c0363e8edd",
+      "baseline_bytes": 3588
+    },
+    {
+      "path": "skills/sf4/references/ui-class-cheatsheet.md",
+      "source_path": "references/ui-class-cheatsheet.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "419c10966c927b15783011f908dee612b385910161f3dd878b6e86270aba516c",
+      "source_bytes": 5969,
+      "baseline_path": "skills/sf4/references/ui-class-cheatsheet.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "2ee40fe58c61055b0714c1a3a5e0762c1acd733532bef23d1f79379bca9612ab",
+      "baseline_bytes": 5738
+    },
+    {
+      "path": "skills/sf4/references/ui-interaction-attributes.md",
+      "source_path": "references/ui-interaction-attributes.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "99fd9d20292c69a8f70eaf29d0d0531ae48d8433f1d10bff0ea47e6d8af01bc9",
+      "source_bytes": 1823,
+      "baseline_path": "skills/sf4/references/ui-interaction-attributes.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "cc0f3b1454eb797252d3aebcdf6ac2c986c82e1949f79923c227768796c91867",
+      "baseline_bytes": 1592
+    },
+    {
+      "path": "skills/sf4/references/ui-interactive-dependencies.md",
+      "source_path": "references/ui-interactive-dependencies.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "b1d0bc103e65a0d9488dbecf9876c43db52244fb397601e407d4c586dd6c4b98",
+      "source_bytes": 4311,
+      "baseline_path": "skills/sf4/references/ui-interactive-dependencies.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "b0789286b8f34ce16c6e6b7298b6fdadad4ec16a8f81d010a4058f2f25df9276",
+      "baseline_bytes": 4080
+    },
+    {
+      "path": "skills/sf4/references/ui-markup-recipes.md",
+      "source_path": "references/ui-markup-recipes.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "bf1c9533c7f5dae659a1d9f0bafa8d9f043b989f26fd998e844ec5b1b3e67f9d",
+      "source_bytes": 3192,
+      "baseline_path": "skills/sf4/references/ui-markup-recipes.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "183d6d4d0e58dccaaf0793a8db3c7ae99e6a49f64732d8bcdae22db6ad885443",
+      "baseline_bytes": 2961
+    },
+    {
+      "path": "skills/sf4/references/ui-modifier-strategy.md",
+      "source_path": "references/ui-modifier-strategy.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "1491dc0119543e766384c37967654e0ed68b29e444ba0bbb551e8699faad95c5",
+      "source_bytes": 2442,
+      "baseline_path": "skills/sf4/references/ui-modifier-strategy.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "2f8711a2c93d032450047a81c297d8de66c8dbc9b29f392a87583dda952676d4",
+      "baseline_bytes": 2211
+    },
+    {
+      "path": "skills/sf4/references/ui-source-map.md",
+      "source_path": "references/ui-source-map.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "887068c37e4c2c0755890c23952908937e696ef867c9142f7b5b411565033d54",
+      "source_bytes": 3152,
+      "baseline_path": "skills/sf4/references/ui-source-map.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "816439546ae034c6df90f0e916e994c3f3f44221af079368f3b2d2addea39c5b",
+      "baseline_bytes": 2921
+    },
+    {
+      "path": "skills/sf4/references/update-artifacts.md",
+      "source_path": "references/update-artifacts.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "843e393bd8892ea8164659eac9007d333b646d519b237e42832ae9ff71b0c220",
+      "source_bytes": 1835,
+      "baseline_path": "skills/sf4/references/update-artifacts.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "f2175b41a013c45c17661101b6c4945f22a1105dc9b070de337a61b6c2833466",
+      "baseline_bytes": 1662
+    },
+    {
+      "path": "skills/sf4/references/ux-implementation-contract.md",
+      "source_path": "references/ux-implementation-contract.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "cc684834edcdbec353f1f17d8e44eea2206ec9532ce71e7570608645375a6d9d",
+      "source_bytes": 1305,
+      "baseline_path": "skills/sf4/references/ux-implementation-contract.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "5cb723afc45fdab3be644036961b182b9870837d6a14116945008fec31705c13",
+      "baseline_bytes": 1074
+    },
+    {
+      "path": "skills/sf4/references/wizard-actions.md",
+      "source_path": "references/wizard-actions.md",
+      "change_types": [
+        "methodology"
+      ],
+      "routing_impact": false,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "f54f8e5cd8376244f3e90633c10d0c34fa94337d3a9661fdd3bb821d292547c9",
+      "source_bytes": 5764,
+      "baseline_path": "skills/sf4/references/wizard-actions.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "1ae18b028aa0369a6a12e1d304283d2b008cdab35a57e8ad35a5f9ff24936cec",
+      "baseline_bytes": 5446
+    },
+    {
+      "path": "skills/sf4/rules/skill-mesh-balance.md",
+      "source_path": "rules/skill-mesh-balance.md",
+      "change_types": [
+        "methodology",
+        "routing-impact"
+      ],
+      "routing_impact": true,
+      "federation_impact": false,
+      "status": "M",
+      "old_path": "",
+      "source_mode": "100644",
+      "source_sha256": "83e9c183d16f6a4761c773a25ec9875249ac21c9c110b2a6eb5d3931c9fe60d7",
+      "source_bytes": 2228,
+      "baseline_path": "skills/sf4/rules/skill-mesh-balance.md",
+      "baseline_mode": "100644",
+      "baseline_sha256": "b1efab55c0eb82f2b7468a6df0e3e064ba51d8031ab66ce5fe58f35e5e5b12bc",
+      "baseline_bytes": 2204
+    }
+  ],
+  "change_types": [
+    "methodology",
+    "routing-impact"
+  ],
+  "required_actions": [
+    "evidence",
+    "federation-proposal",
+    "route-check",
+    "runtime-context"
+  ],
+  "detected_specialists": [],
+  "route_check_required": true,
+  "federation_proposal_required": true,
+  "evidence_refs": [
+    "skills/sf4/references/artifacts/migration-notes.md",
+    "skills/sf4/references/artifacts/qa-report.md",
+    "skills/sf4/references/artifacts/regression-checklist.md",
+    "skills/sf4/references/artifacts/upgrade-notes.md",
+    "skills/sf4/references/backend-critical-guides.md",
+    "skills/sf4/references/bx-backend-source-map.md",
+    "skills/sf4/references/component-template-resolution.md",
+    "skills/sf4/references/components-catalog.md",
+    "skills/sf4/references/config-and-data.md",
+    "skills/sf4/references/grid-and-block-workflow.md",
+    "skills/sf4/references/hygiene-and-secrets.md",
+    "skills/sf4/references/iblock-hl-standard.md",
+    "skills/sf4/references/linkage-remediation.md",
+    "skills/sf4/references/page-map-and-modernization.md",
+    "skills/sf4/references/portal-runtime-source-of-truth.md",
+    "skills/sf4/references/production-patterns.md",
+    "skills/sf4/references/project-layout.md",
+    "skills/sf4/references/property-editor-playbook.md",
+    "skills/sf4/references/qa-regression.md",
+    "skills/sf4/references/scripts-catalog.md",
+    "skills/sf4/references/sfgrid-editor-features.md",
+    "skills/sf4/references/simai-data-settings-runtime.md",
+    "skills/sf4/references/solution-customization-technology.md",
+    "skills/sf4/references/storage-api-playbook.md",
+    "skills/sf4/references/system-layer-simai.md",
+    "skills/sf4/references/task-playbooks.md",
+    "skills/sf4/references/troubleshooting.md",
+    "skills/sf4/references/ui-a11y-checklist.md",
+    "skills/sf4/references/ui-asset-policy.md",
+    "skills/sf4/references/ui-catalog.md",
+    "skills/sf4/references/ui-class-cheatsheet.md",
+    "skills/sf4/references/ui-interaction-attributes.md",
+    "skills/sf4/references/ui-interactive-dependencies.md",
+    "skills/sf4/references/ui-markup-recipes.md",
+    "skills/sf4/references/ui-modifier-strategy.md",
+    "skills/sf4/references/ui-source-map.md",
+    "skills/sf4/references/update-artifacts.md",
+    "skills/sf4/references/ux-implementation-contract.md",
+    "skills/sf4/references/wizard-actions.md",
+    "skills/sf4/rules/skill-mesh-balance.md"
+  ],
+  "canonical_write_allowed": false
+}
