@@ -1,5 +1,7 @@
 # Wizard Actions and Deployment Flows
 
+> Источник: repo://bx-simai.framework/local/modules/simai.framework/install/simai/wizard (action, master), repo://bx-simai.framework/local/modules/simai.framework/install/bitrix/components/simai/sf.wizard · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Universal Wizard Specialist
 
 For universal master creation, modification, packaging, visualization, iblock/HL archive export/import or read-only wizard audit, use:

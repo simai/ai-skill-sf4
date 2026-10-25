@@ -1,5 +1,7 @@
 # SF4 `simai:sf.*` Components Catalog
 
+> Источник: repo://bx-simai.framework/local/modules/simai.framework/install/bitrix/components/simai, https://sf4.simai.pro/ru/bx/components/ · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Scope
 
 This catalog is based on real project source inspection of:

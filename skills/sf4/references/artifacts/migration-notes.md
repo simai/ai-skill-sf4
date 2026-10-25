@@ -1,5 +1,7 @@
 # Migration Notes
 
+> Источник: repo://bx-simai.framework/docs/update-policy.md · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Context
 
 - Task/Change ID:

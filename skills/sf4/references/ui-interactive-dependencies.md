@@ -1,5 +1,7 @@
 # SF4 Interactive Dependencies
 
+> Источник: https://sf4.simai.pro/ru/ui/, repo://bx-simai.framework/local/modules/simai.framework/install/simai/asset · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Goal
 
 Map interactive frontend patterns from SF4 UI catalog (`/ru/ui`) to required assets and init rules so markup changes stay functional in real projects.

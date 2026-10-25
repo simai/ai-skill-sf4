@@ -1,5 +1,7 @@
 # SF4 Project Layout
 
+> Источник: repo://bx-simai.framework/local/modules/simai.framework (install/simai, lib/main), repo://bx-simai.main/local/modules/simai.main · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Path Mapping Example
 
 - Site root: `<site_root>`

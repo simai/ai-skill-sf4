@@ -1,5 +1,7 @@
 # Portal Runtime Source-Of-Truth
 
+> Источник: repo://bx-simai.portal/local/modules/simai.portal, repo://bx-simai.framework/local/modules/simai.framework · Проверено: 2026-10-23 · Версия: bx-simai.portal@b5a6b9ab
+
 Use this reference when SF4 `simai.data` pages, blocks, templates, or component
 params run inside a SIMAI organization portal or host-mode solution domain.
 

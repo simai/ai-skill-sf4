@@ -1,5 +1,7 @@
 # SF4 Task Playbooks
 
+> Источник: repo://bx-simai.framework/local/modules/simai.framework (install/simai, lib/main), repo://bx-simai.main/local/modules/simai.main · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## 1) Create Or Override A Block
 
 Goal:

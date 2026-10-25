@@ -1,5 +1,13 @@
 # SF4 `simai.storage` Playbook
 
+> Источник: https://sf4.simai.pro/ru/bx/storage/, repo://bx-simai.storage/example/simai.storage, repo://bx-simai.storage/local/modules/simai.storage · Проверено: 2026-10-23 · Версия: legacy simai.storage 2.6.0 (bx-simai.storage@02c6cfea)
+
+## Scope and version
+
+This playbook describes the **legacy `simai.storage` API** (`\SIMAI\Storage\Storage`, `Element`, `Property`, `Set`, events `OnBefore*/OnAfter*`), as documented on `https://sf4.simai.pro/ru/bx/storage/` and kept in `bx-simai.storage/example/simai.storage` (module version 2.6.0, 2023). It applies to SF4 sites that still run that module.
+
+The current implementation in `bx-simai.storage/local/modules/simai.storage` is a different architecture (`Simai\Storage\Entity`, `Repository`, `Service`; module-owned tables, pipelines, stages, storage groups). Do not apply the legacy class/method names to it: first read `bx-simai.storage/README.md` and `docs/developer/` and check which module the target site actually has installed (`/bitrix/modules/simai.storage/install/version.php`).
+
 ## Goal
 
 Implement backend data flows using `simai.storage` with explicit CRUD, access, events, and search/sort update steps.

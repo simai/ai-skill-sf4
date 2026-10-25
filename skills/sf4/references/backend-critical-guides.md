@@ -1,5 +1,7 @@
 # SF4 Backend Critical Guides
 
+> Источник: https://sf4.simai.pro/ru/bx/, repo://bx-simai.framework/local/modules/simai.framework/lib/main · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Goal
 
 Enforce backend practices from `/ru/bx/guides` that prevent recurring regressions in SF4 projects.

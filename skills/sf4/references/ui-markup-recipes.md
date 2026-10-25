@@ -1,5 +1,7 @@
 # SF4 Markup Recipes
 
+> Источник: https://sf4.simai.pro/ru/ui/, repo://bx-simai.framework/local/modules/simai.framework/install/simai/asset · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Goal
 
 Provide compact, reusable markup skeletons aligned with SF4 class language for common block tasks.

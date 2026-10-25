@@ -1,5 +1,7 @@
 # UX Implementation Contract
 
+> Источник: https://sf4.simai.pro/ru/ui/, repo://bx-simai.framework/local/modules/simai.framework/install/simai/asset · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 Use this reference when `$sf4` implements an interface designed or reviewed by `$ux`.
 
 ## Rule

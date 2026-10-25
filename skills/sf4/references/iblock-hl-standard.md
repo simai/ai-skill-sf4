@@ -1,5 +1,7 @@
 # Iblock and HL-Block Standard (SF4)
 
+> Источник: repo://bx-simai.framework/local/modules/simai.framework, repo://bx-simai.portal/local/modules/simai.portal/install/data · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Scope
 
 Use this standard when creating or modernizing data entities for SF4 projects:

@@ -1,5 +1,7 @@
 # SF4 UI Catalog For Markup Tasks
 
+> Источник: https://sf4.simai.pro/ru/ui/, repo://bx-simai.framework/local/modules/simai.framework/install/simai/asset · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Goal
 
 Use SF4 UI catalog pages (`/ru/ui`) as a practical source of valid class combinations and component markup when building or refactoring frontend in SF4 blocks and views.

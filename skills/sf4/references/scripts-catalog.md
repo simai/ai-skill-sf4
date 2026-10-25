@@ -1,5 +1,7 @@
 # SF4 Scripts Catalog
 
+> Источник: repo://ai-skill-sf4/scripts, repo://ai-skill-sf4/skills/sf4/scripts (CLI-флаги сверены с кодом скриптов) · Проверено: 2026-10-23 · Версия: ai-skill-sf4@5f2cca2
+
 Project scripts live in `skills/sf4/scripts/`; universal wizard scripts live in
 the repository root `scripts/`. Add `--dry-run` / omit `--apply` to preview.
 

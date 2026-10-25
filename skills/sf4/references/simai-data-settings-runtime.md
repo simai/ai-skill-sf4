@@ -1,5 +1,7 @@
 # `simai.data` Runtime, Settings, and Template Model
 
+> Источник: repo://bx-simai.framework/local/modules/simai.framework (install/simai, lib/main), repo://bx-simai.main/local/modules/simai.main · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Why This Matters
 
 In SF4, `simai.data` is the project layer that drives:

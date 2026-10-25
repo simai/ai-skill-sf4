@@ -1,12 +1,16 @@
 # SF4 `sf.grid` Editor Features (Backend Notes)
 
+> Источник: https://sf4.simai.pro/ru/bx/components/sfgrid.php, repo://bx-simai.framework/local/modules/simai.framework/install/bitrix/components/simai/sf.grid · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Goal
 
 Use modern `sf.grid` capabilities safely in production projects, including row order editing, block presets, and modifier tooling.
 
 Source page:
 
-- `/ru/bx/components/sfgrid.php`
+- `https://sf4.simai.pro/ru/bx/components/sfgrid.php`
+
+Version note: the row-wrap parameters (`USE_SINGLE_ROW_WRAP_MODIFIER`, `EVEN_/ODD_ROW_WRAP_MODIFIER`), drag-and-drop order and presets are described on the documentation site but are absent from the `simai.framework` copies in `bx-simai.framework` (`local/modules` 5.0.115 and `source/simai.framework/module` 5.0.133: `sf.grid/.parameters.php` has only `ROW_WRAP_MODIFIER`, no `sf.grid/ajax.php`). Check the `sf.grid` version on the target site before relying on them.
 
 ## Key Features
 

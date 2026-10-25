@@ -1,5 +1,7 @@
 # SF4 Backend Source Map (`/ru/bx`)
 
+> Источник: https://sf4.simai.pro/ru/bx/, repo://bx-simai.framework/local/modules/simai.framework/lib/main · Проверено: 2026-10-23 · Версия: simai.framework 5.0.133 (bx-simai.framework@7c34b9c)
+
 ## Goal
 
 Use `/ru/bx` as a primary backend knowledge base for SF4 project implementation, modernization, and regression-safe fixes.
