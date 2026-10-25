@@ -30,7 +30,7 @@ actions, SF4 migration/update workflows, and safe project-layer overrides.
 - Use `$marketing` and `$ux` as contract owners for public/search and UI changes.
 - Use `$tester` for smoke/regression evidence and `$ops` for runtime issues.
 - Use `$docs` for substantial documentation structure and content.
-- For SF4 -> SF5 or other reference-adaptive checks, `$sf4` owns the source
+- For SF4 -> SIMAI Framework (ui-source) or other reference-adaptive checks, `$sf4` owns the source
   behavior: `simai.data`, grid/view/block, template area, component/property,
   iblock/HL, wizard, and project-layer source-of-truth facts. `$tester` owns
   invariant evidence; `$framework` or another target skill owns target adaptation.
