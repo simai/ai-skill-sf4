@@ -44,3 +44,6 @@ site
 
 # the Mirai 2 capsule graph is tracked, whatever the rules above say
 !/mirai/graph/docs/
+
+# Reports of Federation checks stay local
+mirai/graph/generated/
